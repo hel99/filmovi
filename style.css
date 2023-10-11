@@ -1,0 +1,66 @@
+img{
+    width: 15%;
+    margin-right: 10px;
+}
+.pozadina{
+    opacity: 0.5;
+}
+
+a{
+    margin-left: 10px;
+    color: rgb(199, 78, 199);
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/clapperboard-popcorn_23-2147775681.jpg?w=1380&t=st=1697037400~exp=1697038000~hmac=4681b572e071e828cc898a3990858f8427047fa53facf1b83b89cbb869293fe9);
+    opacity: 0.9;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 251, 251);
+    
+}
+h1{
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    color: rgb(77, 77, 77);
+    text-align: justify;
+}
+
+div{
+    margin: auto;
+    background-color: beige;
+    
+    width: 1200px;
+}
+
+li{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: large;
+    color: violet;
+}
+
+.jedan, .dva {
+    border: 2px solid white; 
+    border-color: whitesmoke;
+    width: 1000px;
+    height: 280px;
+    clear: both;
+}
+
+.jedan{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 216, 186);
+}
+
+.dva{
+    background-color: rgb(226, 193, 149);
+}
