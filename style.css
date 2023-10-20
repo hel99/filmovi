@@ -13,7 +13,7 @@ a{
 }
 
 body{
-    background-image: url(https://img.freepik.com/free-photo/clapperboard-popcorn_23-2147775681.jpg?w=1380&t=st=1697037400~exp=1697038000~hmac=4681b572e071e828cc898a3990858f8427047fa53facf1b83b89cbb869293fe9);
+    background-image: url(txghpuif.png);
     opacity: 0.9;
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,8 +36,8 @@ p{
 div{
     margin: auto;
     background-color: beige;
-    
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 li{
@@ -47,20 +47,20 @@ li{
     color: violet;
 }
 
-.jedan, .dva {
-    border: 2px solid white; 
-    border-color: whitesmoke;
-    width: 1000px;
-    height: 280px;
+.svetliji_opis, .tamniji_opis {
+    margin-top: 10px;
+    max-width: 1000px;
+    width: 100%;
+    height: 300px;
     clear: both;
 }
 
-.jedan{
+.svetliji_opis{
     display: flex;
     flex-direction: row;
     background-color: rgb(240, 216, 186);
 }
 
-.dva{
+.tamniji_opis{
     background-color: rgb(226, 193, 149);
 }
